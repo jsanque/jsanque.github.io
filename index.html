@@ -7,7 +7,7 @@
   <title>Jeremy Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -23,33 +23,72 @@
           <a class="nav-link" href="#about" style="color: white;">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color: white;">Projects</a>
+          <a class="nav-link" href="#projects" style="color: white;">Projects</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <section id="home" class="hero">
-    <img src="images (2).png" class="img-fluid rounded-circle mb-4" alt="Profile picture" style="width: 150px;">
+    <img src="images/images (2).png" class="img-fluid rounded-circle mb-4" alt="Profile picture" style="width: 150px;">
     <h1>Hello, I'm Jeremy!</h1>
     <p class="lead">Junior year student aspiring to become a Cybersecurity Analyst.</p>
   </section>
-
-  <div class="container my-5" id="about">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="about text-center">
-          <h3>About Me</h3>
-          <p>Hi! I'm Jeremy, a tech enthusiast with a focus on cybersecurity. I enjoy learning how systems work, how
-            they can
-            be improved, and how to protect them from threats.</p>
-          <p>Outside my studies, I enjoy coding, gaming, and exploring new tech trends. My long-term goal is to build a
-            career as a Cybersecurity Analyst, helping organizations safeguard their data and stay secure in the digital
-            age.</p>
+  <section class="about">
+    <div class="container my-5" id="about">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="about text-center">
+            <h3>About Me</h3>
+            <p>Hi! I'm Jeremy, a tech enthusiast with a focus on cybersecurity. I enjoy learning how systems work, how
+              they can
+              be improved, and how to protect them from threats.</p>
+            <p>Outside my studies, I enjoy coding, gaming, and exploring new tech trends. My long-term goal is to build
+              a
+              career as a Cybersecurity Analyst, helping organizations safeguard their data and stay secure in the
+              digital
+              age.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="Projects">
+    <div class="container my-5" id="projects">
+      <div class="row justify-content-center text-center">
+        <div class="col">
+          <h3>Projects</h3>
+        </div>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/device.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Device Specification</h5>
+              <p class="card-text">A website showing device specification, displays key details like performance,
+                storage, display, battery, and other features.</p>
+              <a href="https://jsanque.github.io/device-specification/" class="btn btn-success">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/location.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Showcase Location</h5>
+              <p class="card-text">A website showcasing a location provides details, images, and maps to highlight its
+                attractions, history, and features, helping visitors learn about and explore the place.</p>
+              <a href="https://jsanque.github.io/showcase-location/" class="btn btn-success">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
