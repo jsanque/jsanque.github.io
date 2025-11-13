@@ -11,3 +11,9 @@
 .card{
       width: 18rem;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.about{
+      margin-top: 100px;
+}
