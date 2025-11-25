@@ -8,12 +8,32 @@
       justify-content: center;
       flex-direction: column;
 }
-.card{
-      width: 18rem;
-}
 body {
   font-family: 'Poppins', sans-serif;
 }
-.about{
-      margin-top: 100px;
+section {
+  padding: 80px 0;
+}
+.hero-icons {
+  margin-top: 20px;
+}
+
+.circle-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin: 0 10px;
+  color: white;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.circle-icon:hover {
+  background: white;
+  color: #308130;
+  transform: translateY(-5px);
 }
